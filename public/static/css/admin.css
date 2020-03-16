@@ -1,0 +1,36 @@
+html {
+    background-color: #f2f2f2
+}
+/* 左侧菜单样式 */
+.layui-side-menu .layui-nav .layui-nav-item a {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 45px;
+    padding-right: 30px;
+}
+
+.layui-nav .layui-nav-item .layui-icon {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin-top: -19px;
+}
+
+.layui-nav .layui-nav-child .layui-nav-child a {
+    padding-left: 60px;
+}
+
+/* 面包屑样式 */
+.layadmin-header .layui-breadcrumb {
+    padding:15px;
+    border-top: 1px solid #f6f6f6;
+}
+
+.layui-breadcrumb span[lay-separator] {
+    margin: 0 10px;
+    color: #999;
+}
+
+layui-fluid {
+    padding: 15px;
+}
